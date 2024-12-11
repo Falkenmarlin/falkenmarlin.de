@@ -3,5 +3,5 @@ Website über mich Falkenmarlin
 
 ## ToDo
 ### Inhalt überarbeiten
-• Informationen
+• Informationen  
 • Links zu Profilen
