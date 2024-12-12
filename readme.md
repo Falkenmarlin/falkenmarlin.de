@@ -1,7 +1,7 @@
 # falkenmarlin.github.io
-Website über mich Falkenmarlin
-shorturl: [fm.to/fm](https://fm.to/fm)  
-
+Website über mich Falkenmarlin  
+shorturl to links: [fm.to/fm](https://fm.to/fm)  
+  
 ## ToDo
 ### Inhalt überarbeiten
 - Informationen  
