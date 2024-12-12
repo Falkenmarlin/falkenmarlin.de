@@ -5,5 +5,5 @@ shorturl: fm.to/fm
 ## ToDo
 ### Inhalt überarbeiten
 • Informationen  
-~~• Links zu Profilen~~
+~~• Links zu Profilen~~  
 • Share website(long/short)
