@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0d212e;
-    color: #93b7c6;
+    color: #65d5fa;
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #65d5fa;
+    background-color: #93b7c6;
     color: #0d212e;
 }
 
@@ -28,13 +28,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #65d5fa;
+    color: #93b7c6;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #93b7c6;
+    color: #65d5fa;
     text-decoration: underline;
 }
 
@@ -47,8 +47,8 @@ section {
 }
 
 section h2 {
-    color: #65d5fa;
-    border-bottom: 2px solid #93b7c6;
+    color: #93b7c6;
+    border-bottom: 2px solid #65d5fa;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -56,14 +56,14 @@ section h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #65d5fa;
+    background-color: #93b7c6;
     color: #0d212e;
 }
 
 a {
-    color: #65d5fa;
+    color: #93b7c6;
 }
 
 a:hover {
-    color: #93b7c6;
+    color: #65d5fa;
 }
