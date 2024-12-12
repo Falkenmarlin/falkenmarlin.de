@@ -5,14 +5,7 @@ body {
     padding: 0;
     background-color: #0d212e;
     color: #93b7c6;
-}
-
-.link-box-container {
-    display: flex; /* Flexbox aktivieren */
-    justify-content: center; /* Horizontal zentrieren */
-    align-items: center; /* Vertikal zentrieren */
-    flex-direction: column; /* Elemente untereinander anordnen */
-    height: 90vh; /* Höhe des Viewports */
+    overflow-y: auto; /* Ermöglicht Scrollen */
 }
 
 header {
@@ -20,6 +13,8 @@ header {
     padding: 20px;
     background-color: #93b7c6;
     color: #0d212e;
+    height: auto; /* Keine fixe Höhe */
+    margin-bottom: 20px; /* Abstand zu nachfolgenden Elementen */
 }
 
 header img {
@@ -95,11 +90,23 @@ a:hover {
     color: #93b7c6;
 }
 
-/* Verlinkungs Boxen*/
+/*Container, der die VB enthält*/
+.link-box-container {
+    display: flex; /* Flexbox aktivieren */
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /*vertikal center*/
+    flex-direction: column; /* Elemente untereinander anordnen */
+    margin-top: 20px; /* Abstand unterhalb des Headers */
+    padding-top: 20px; /* Zusätzlicher Puffer */
+    height: auto; /* Keine feste Höhe */
+}
+
+/* Verlinkungs Boxen */
 .link-box {
     display: flex;
-    align-items: center;
-    justify-content: center; /* Horizontale Zentrierung */
+    justify-content: center;  /* Zentriert den Inhalt horizontal in der Box */
+    align-items: center;      /* Zentriert den Inhalt vertikal in der Box */
+    flex-direction: row;      /* Stellt sicher, dass die Icons und Text nebeneinander sind */
     background-color: #93b7c6;
     color: #0d212e;
     padding: 10px 15px;
@@ -107,10 +114,11 @@ a:hover {
     margin: 10px 0;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    width: 250px; /* Feste Breite */
-    height: 60px; /* Feste Höhe */
+    width: 250px;             /* Feste Breite der Boxen */
+    height: 60px;             /* Feste Höhe der Boxen */
     box-sizing: border-box;
 }
+
 
 .link-box:hover {
     background-color: #65d5fa;
@@ -143,4 +151,4 @@ a:hover {
 
 .inline {
     display: inline;
-  }
+}
