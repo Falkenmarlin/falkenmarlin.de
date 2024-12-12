@@ -48,6 +48,11 @@ nav a:hover {
 
 main {
     padding: 20px;
+    max-width: 1500px; /* Verwende max-width für bessere Skalierbarkeit */
+    margin: 0 auto; /* Zentriert das Element horizontal */
+    display: flex; /* Aktiviert Flexbox */
+    flex-direction: column; /* Optional, falls die Inhalte vertikal angeordnet werden sollen */
+    align-items: center; /* Zentriert Inhalte horizontal innerhalb des Flex-Containers */
 }
 
 section {
@@ -78,6 +83,12 @@ a {
 
 a.linkNoUl {
     text-decoration: none;
+}
+
+a.highlight {
+    color: #65d5fa; /* Bleibt in der Standardfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    pointer-events: none; /* Deaktiviert Hover-Effekte und Klicks */
 }
 
 a:hover {
@@ -125,3 +136,11 @@ a:hover {
     margin-right: 10px;
     border-radius: 15%;
 }
+
+.highlight {
+    color: #65d5fa;
+}
+
+.inline {
+    display: inline;
+  }
