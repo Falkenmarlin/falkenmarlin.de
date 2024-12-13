@@ -165,13 +165,13 @@ a:hover {
 
 /* Responsive Anpassungen für kleine Displays */
 @media (max-width: 768px) {
-    .img404 {
-        width: 200px; /* Verkleinere das Bild für kleinere Bildschirme */
+/*    .img404 {
+        width: 200px;
         height: 200px;
-        margin: 0 auto; /* Zentriere das Bild */
-        display: block; /* Falls notwendig, um das Bild zentriert darzustellen */
+        margin: 0 auto;
+        display: block;
     }
-
+*/
     .link-box-container h2 {
         font-size: 1.2rem; /* Verkleinere die Schriftgröße */
         text-align: center; /* Zentriere den Text */
