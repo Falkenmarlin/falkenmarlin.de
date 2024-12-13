@@ -162,3 +162,19 @@ a:hover {
 .inline {
     display: inline;
 }
+
+/* Responsive Anpassungen für kleine Displays */
+@media (max-width: 768px) {
+    .img404 {
+        width: 200px; /* Verkleinere das Bild für kleinere Bildschirme */
+        height: 200px;
+        margin: 0 auto; /* Zentriere das Bild */
+        display: block; /* Falls notwendig, um das Bild zentriert darzustellen */
+    }
+
+    .link-box-container h2 {
+        font-size: 1.2rem; /* Verkleinere die Schriftgröße */
+        text-align: center; /* Zentriere den Text */
+        padding: 10px; /* Zusätzlicher Abstand für bessere Lesbarkeit */
+    }
+}
