@@ -27,8 +27,8 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install setuptools var_dump lxml 
+          python3 -m pip install --upgrade pip
+          pip3 install beautifulsoup4 requests lxml
 
       - name: Run sitemap generator
         run: python scripts/python-sitemap-generator.py
