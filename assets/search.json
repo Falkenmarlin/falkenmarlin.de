@@ -17,12 +17,53 @@
             "Licht",
             "Ton",
             "Technik",
+            "Gaming",
+            "Theater",
+            "Zeichnen"
+        ],
+        "url": "HTTPS://falkenmarlin.github.io/"
+    },
+    {
+        "titles": [
+            "Falkenmarlin",
+            "Falkenmarlin",
+            "Über Mich",
+            "Technik",
+            "Gaming",
+            "Theater",
+            "Zeichnen",
+            "programmiere",
+            "Computerspiele",
+            "Modifikationen",
+            "Theaters",
+            "Freilichtbühne",
+            "Veranstaltungstechnik",
+            "Licht",
+            "Ton",
             "Technik",
             "Gaming",
             "Theater",
             "Zeichnen"
         ],
         "url": "/"
+    },
+    {
+        "titles": [
+            "Falkenmarlin",
+            "Falkenmarlin",
+            "Über Mich"
+        ],
+        "url": "/spiele"
+    },
+    {
+        "titles": [
+            "Civilization VI",
+            "Civilization VI",
+            "Über Civilization VI",
+            "Statistiken",
+            "rundenbasiertes Strategiespiel"
+        ],
+        "url": "/spiele/civ-vi/"
     },
     {
         "titles": [
@@ -33,10 +74,33 @@
     },
     {
         "titles": [
-            "Frohe Weihnachten",
-            "FROHE WEIHNACHTEN",
-            "Spaceman"
+            "Search Page",
+            "Suche"
         ],
-        "url": "/spaceman"
+        "url": "/suche"
+    },
+    {
+        "titles": [
+            "Ingress",
+            "Ingress",
+            "Über Ingress",
+            "Was ich bisher gemacht habe.",
+            "Meilensteine"
+        ],
+        "url": "/spiele/ingress/"
+    },
+    {
+        "titles": [
+            "Links",
+            "Links"
+        ],
+        "url": "/spiele/civ-vi/links"
+    },
+    {
+        "titles": [
+            "Error - 404",
+            "\n        Seite nicht gefunden!\n        zurück zur Homepage\n"
+        ],
+        "url": "/spiele/ingress/links"
     }
 ]

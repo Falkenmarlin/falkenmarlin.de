@@ -22,8 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install beautifulsoup4 requests
+          python3 -m pip3 install --upgrade pip3
+          pip3 install beautifulsoup4 requests
 
       - name: Run script
         run: python scripts/generate_search_json.py
