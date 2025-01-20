@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Page</title>
+  <link rel="stylesheet" href="/stylesheet.css">
+</head>
+<body>
+  <header>
+    <h2>Suche</h2>
+    <p>Suche auf dieser Webseite.</p>
+  </header>
+  <nav id="nav-placeholder"></nav>
+  <noscript>
+    <div class="noscript-warning">
+      <p>
+        Diese Website erfordert JavaScript, um vollständig zu funktionieren.
+        Bitte aktiviere JavaScript in deinem Browser.
+      </p>
+    </div>
+    <nav>
+      <a href="/">Startseite</a>
+      <a href="/links">Links</a>
+    </nav>
+  </noscript>
+  <main>
+    <section id="search">
+      <div style="display: flex; align-items: center;">
+        <input type="search" placeholder="Suche nach einem Thema" aria-label="Search for a topic" style="flex: 1; margin-right: 10px;">
+        <button aria-label="Search">Suchen</button>
+      </div></div>
+      <div id="search-results"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 - <span id="year"></span> Falkenmarlin. Alle Rechte vorbehalten.</p>
+  </footer>
+  <script src="/scripts/search.js"></script>
+  <script src="/scripts/ini.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingress</title>
+    <link rel="icon" href="/assets/civ-vi.png" type="image/jpg" />
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <script src="/scripts/ini.js" defer></script>
+    <script src="/scripts/ingress.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Civilization VI</h1>
+      <img
+        src="/assets/civ-vi.png"
+        alt="Sid Meier's Civilization VI Logo"
+        width="100"
+        height="100"
+        style="border-radius: 0%;"
+      />
+    </header>
+    <nav id="nav-placeholder"></nav>
+    <noscript>
+      <div class="noscript-warning">
+        <p>
+          Diese Website erfordert JavaScript, um vollständig zu funktionieren.
+          Bitte aktiviere JavaScript in deinem Browser.
+        </p>
+      </div>
+      <nav>
+        <a href="/">Startseite</a>
+        <a href="/links">Links</a>
+      </nav>
+    </noscript>
+    <main>
+      <section id="about-civ-vi">
+        <h2 class="centered">Über Civilization VI</h2>
+        <p>
+          Civilization VI ist ein <span class="search-highlight">rundenbasiertes Strategiespiel</span>, das von
+          Firaxis Games entwickelt und von 2K Games veröffentlicht wurde. Es ist
+          der sechste Teil der Civilization-Reihe und wurde erstmals im Oktober
+          2016 veröffentlicht. In Civilization spielst du einen Anführer,
+          welcher ein Volk von der Antike bis in die Zukunft führt. Du musst
+          Städte bauen, Technologien erforschen, Kriege führen und Diplomatie
+          betreiben um dein Volk zum Sieg zu führen. Wenn du dich dafür
+          interessierst, mehr über Civilization VI zu erfahren, habe ich
+          <a href="./links">hier</a> einige Links zusammengestellt.
+        </p>
+          <div id="links-placeholder" style="display: flex; justify-content: center;"></div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const linksPlaceholder =
+              document.getElementById("links-placeholder");
+
+            fetch("./links.html")
+              .then((response) => response.text())
+              .then((html) => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, "text/html");
+                const linksContent = doc.querySelector(
+                  "section[id='links']"
+                ).innerHTML;
+                linksPlaceholder.innerHTML = linksContent;
+              })
+              .catch((error) => console.error("Error fetching links:", error));
+          });
+        </script>
+      </section>
+      <section id="civ-vi-and-me">
+        <h2 class="centered">Statistiken</h2>
+        <p>
+          Hier ist ein Link zu
+          <a
+            href="https://steamcommunity.com/id/falkenmarlin/stats/289070/achievements/"
+            >meinen Erfolgen</a
+          >, sowie der
+          <a
+            href="https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/"
+            >Link zur Steamseite</a
+          >
+          von Civilization VI.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 - <span id="year"></span> Falkenmarlin. Alle Rechte
+        vorbehalten.
+      </p>
+    </footer>
+  </body>
+</html>

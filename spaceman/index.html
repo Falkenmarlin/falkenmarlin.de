@@ -6,21 +6,30 @@
     <title>Frohe Weihnachten</title>
     <link rel="icon" href="/falkenmarlin.jpg" type="image/jpg" />
     <link rel="stylesheet" href="/stylesheet.css" />
+    <script src="/scripts/ini.js" defer></script>
   </head>
   <body>
     <main>
       <h2 class="mc">FROHE WEIHNACHTEN</h2>
       <p class="mc">
-        Hey Spaceman,<br />
+        Hey <a class="highlight">Spaceman</a>,<br />
         hier ist noch ein kleines Extra für dich,<br />
         welches in Minecraft nicht so leicht umzusetzen war.<br />
         Frohe Weihnachten dir! <br />LG<br />
         Falkenmarlin
       </p>
-      <img src="/wichteln-spaceman.jpg" alt="Wichtelgeschenk Bild" width="75%" height="auto"/>
+      <img
+        src="/wichteln-spaceman.jpg"
+        alt="Wichtelgeschenk Bild"
+        width="75%"
+        height="auto"
+      />
     </main>
     <footer>
-      <p>&copy; 2024 Falkenmarlin. Alle Rechte vorbehalten.</p>
+      <p>
+        &copy; 2024 - <span id="year"></span> Falkenmarlin. Alle Rechte
+        vorbehalten.
+      </p>
     </footer>
     <script>
       const NUMBER_OF_SNOWFLAKES = 300;
