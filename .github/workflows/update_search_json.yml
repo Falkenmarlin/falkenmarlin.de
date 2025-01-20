@@ -26,7 +26,7 @@ jobs:
           pip3 install beautifulsoup4 requests
 
       - name: Run script
-        run: python scripts/generate_search_json.py
+        run: python scripts/generate-search-json.py
 
       - name: Commit and push changes
         run: |
