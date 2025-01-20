@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # URL of the sitemap
-sitemap_url = "http://127.0.0.1:5500/sitemap.xml"
+sitemap_url = "http://falkenmarlin.github.io/sitemap.xml"
 
 # Fetch the sitemap
 response = requests.get(sitemap_url)
