@@ -28,13 +28,10 @@ for url in urls:
     titles.extend([tag.get_text() for tag in soup.find_all(class_='highlight')])
     titles.extend([tag.get_text() for tag in soup.find_all(class_='search-highlight')])
     
-    # Remove the base URL part from the URL
-    base_url = "https://falkenmarlin.de"
-    relative_url = url.replace(base_url, "")
     
     search_data.append({
         "titles": titles,
-        "url": relative_url
+        "url": url
     })
 
 # Save the search data to search.json
