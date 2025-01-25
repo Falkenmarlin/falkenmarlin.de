@@ -40,7 +40,7 @@ link_threads = []
 MaxThreads = 4
 
 # DEFINE YOUR URL - CUSTOM URL!
-InitialURL = 'HTTPS://falkenmarlin.de/'
+InitialURL = 'https://falkenmarlin.de/'
 
 InitialURLInfo = urlparse(InitialURL)
 InitialURLLen = len(InitialURL.split('/'))
