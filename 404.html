@@ -7,18 +7,28 @@
     <link rel="icon" href="/falkenmarlin.jpg" type="image/jpg" />
     <link rel="stylesheet" href="/stylesheet.css" />
     <script src="/scripts/ini.js" defer></script>
+    <script src="/scripts/search.js"></script>
   </head>
   <body>
     <main class="link-box-container">
       <img src="/404.jpg" alt="-404-" class="img404" />
-      <h2>
-        Seite nicht gefunden!
-        <a href="/" class="linkNoUl">zurück zur Homepage</a>
-      </h2>
+      <h2>Seite nicht gefunden!</h2>
+      <p>
+        Die Seite, die Sie suchen, existiert nicht oder wurde verschoben.
+        Überprüfen Sie die URL, gehen Sie zurück zur
+        <a href="/" class="linkNoUl" role="Link">Startseite</a> oder Suchen sie:
+      </p>
+      <section id="search">
+        <div style="display: flex; align-items: center;">
+          <input type="search" placeholder="Suche nach einem Thema" aria-label="Search for a topic" style="flex: 1; margin-right: 10px;">
+          <button aria-label="Search">Suchen</button>
+        </div></div>
+        <div id="search-results"></div>
+      </section>
     </main>
     <footer>
       <p>
-        &copy; 2024 - <span id="year"></span> Falkenmarlin. Alle Rechte
+        &copy; 2024 - <span id="year"></span> Noah Marlin Bendig. Alle Rechte
         vorbehalten.
       </p>
     </footer>

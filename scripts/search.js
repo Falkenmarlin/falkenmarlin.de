@@ -31,18 +31,17 @@ document.addEventListener("DOMContentLoaded", function () {
           );
 
           resultsDiv.innerHTML = filteredResults.length
-            ? filteredResults
+            ? `<h3>Suchergebnisse für "${query}":</h3>` + filteredResults
                 .map(
                   (result) => `
                     <div class="search-result">
-                      <h3>Suchergebnisse für "${query}":</h3>
                       <a href="${result.url}" target="_blank">${result.titles[0]}</a>
                     </div>
                   `
                 )
                 .join("<br>")
-            : `<h3>Keine Ergebnisse für "${query}" gefunden</h3>`;
-            
+            : `<p>Keine Ergebnisse für "${query}" gefunden.</p>`;
+
           console.log(
             filteredResults.length
               ? filteredResults

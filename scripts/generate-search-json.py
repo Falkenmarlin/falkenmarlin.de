@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # URL of the sitemap
-sitemap_url = "http://falkenmarlin.github.io/sitemap.xml"
+sitemap_url = "http://falkenmarlin.de/sitemap.xml"
 
 # Fetch the sitemap
 response = requests.get(sitemap_url)
@@ -29,7 +29,7 @@ for url in urls:
     titles.extend([tag.get_text() for tag in soup.find_all(class_='search-highlight')])
     
     # Remove the base URL part from the URL
-    base_url = "https://falkenmarlin.github.io"
+    base_url = "https://falkenmarlin.de"
     relative_url = url.replace(base_url, "")
     
     search_data.append({
