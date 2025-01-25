@@ -388,4 +388,13 @@ button[aria-label="Search"]:focus {
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  .input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #65d5fa;
+    background-color: #0d212e;
+    color: #93b7c6;
+  }
 }
