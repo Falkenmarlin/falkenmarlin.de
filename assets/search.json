@@ -25,17 +25,17 @@
     },
     {
         "titles": [
-            "Links",
-            "Links"
-        ],
-        "url": "https://falkenmarlin.de/links"
-    },
-    {
-        "titles": [
             "Search Page",
             "Suche"
         ],
         "url": "https://falkenmarlin.de/suche"
+    },
+    {
+        "titles": [
+            "Links",
+            "Links"
+        ],
+        "url": "https://falkenmarlin.de/links"
     },
     {
         "titles": [
@@ -44,16 +44,6 @@
             "Über Mich"
         ],
         "url": "https://falkenmarlin.de/spiele"
-    },
-    {
-        "titles": [
-            "Ingress",
-            "Ingress",
-            "Über Ingress",
-            "Was ich bisher gemacht habe.",
-            "Meilensteine"
-        ],
-        "url": "https://falkenmarlin.de/spiele/ingress/"
     },
     {
         "titles": [
@@ -67,10 +57,13 @@
     },
     {
         "titles": [
-            "Ingress - Links",
-            "Ingress - Links"
+            "Ingress",
+            "Ingress",
+            "Über Ingress",
+            "Was ich bisher gemacht habe.",
+            "Meilensteine"
         ],
-        "url": "https://falkenmarlin.de/spiele/ingress/links"
+        "url": "https://falkenmarlin.de/spiele/ingress/"
     },
     {
         "titles": [
@@ -78,5 +71,12 @@
             "Civilization VI - Links"
         ],
         "url": "https://falkenmarlin.de/spiele/civ-vi/links"
+    },
+    {
+        "titles": [
+            "Ingress - Links",
+            "Ingress - Links"
+        ],
+        "url": "https://falkenmarlin.de/spiele/ingress/links"
     }
 ]
