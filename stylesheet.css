@@ -388,7 +388,7 @@ button[aria-label="Search"]:focus {
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .input[type="search"] {
+  input[type="search"] {
     width: 200px;
     padding: 10px;
     margin: 10px 0;
