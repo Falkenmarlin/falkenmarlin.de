@@ -4,11 +4,11 @@
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
-    <loc>https://falkenmarlin.de/suche</loc>
+    <loc>https://falkenmarlin.de/links</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
-    <loc>https://falkenmarlin.de/links</loc>
+    <loc>https://falkenmarlin.de/suche</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
@@ -16,19 +16,19 @@
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
-    <loc>https://falkenmarlin.de/spiele/civ-vi/</loc>
-    <lastmod>2025-01-26</lastmod>
-  </url>
-  <url>
     <loc>https://falkenmarlin.de/spiele/ingress/</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
-    <loc>https://falkenmarlin.de/spiele/civ-vi/links</loc>
+    <loc>https://falkenmarlin.de/spiele/civ-vi/</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://falkenmarlin.de/spiele/ingress/links</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://falkenmarlin.de/spiele/civ-vi/links</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
 </urlset>
