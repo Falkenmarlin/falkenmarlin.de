@@ -1,35 +1,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://falkenmarlin.de/</loc>
-    <lastmod>2025-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://falkenmarlin.de/suche</loc>
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
   </url>
   <url>
     <loc>https://falkenmarlin.de/links</loc>
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
+  </url>
+  <url>
+    <loc>https://falkenmarlin.de/suche</loc>
+    <lastmod>2025-02-09</lastmod>
   </url>
   <url>
     <loc>https://falkenmarlin.de/spiele</loc>
-    <lastmod>2025-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://falkenmarlin.de/spiele/civ-vi/</loc>
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
   </url>
   <url>
     <loc>https://falkenmarlin.de/spiele/ingress/</loc>
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
   </url>
   <url>
-    <loc>https://falkenmarlin.de/spiele/civ-vi/links</loc>
-    <lastmod>2025-02-08</lastmod>
+    <loc>https://falkenmarlin.de/spiele/civ-vi/</loc>
+    <lastmod>2025-02-09</lastmod>
   </url>
   <url>
     <loc>https://falkenmarlin.de/spiele/ingress/links</loc>
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
+  </url>
+  <url>
+    <loc>https://falkenmarlin.de/spiele/civ-vi/links</loc>
+    <lastmod>2025-02-09</lastmod>
   </url>
 </urlset>
 
