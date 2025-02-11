@@ -25,13 +25,6 @@
     },
     {
         "titles": [
-            "Search Page",
-            "Suche"
-        ],
-        "url": "https://falkenmarlin.de/suche"
-    },
-    {
-        "titles": [
             "Links",
             "Links"
         ],
@@ -39,21 +32,18 @@
     },
     {
         "titles": [
-            "Spiele",
-            "Spiele",
-            "Über Mich"
+            "Search Page",
+            "Suche"
         ],
-        "url": "https://falkenmarlin.de/spiele"
+        "url": "https://falkenmarlin.de/suche"
     },
     {
         "titles": [
-            "Civilization VI",
-            "Civilization VI",
-            "Über Civilization VI",
-            "Statistiken",
-            "rundenbasiertes Strategiespiel"
+            "Spiele",
+            "Spiele",
+            "Spiele"
         ],
-        "url": "https://falkenmarlin.de/spiele/civ-vi/"
+        "url": "https://falkenmarlin.de/spiele"
     },
     {
         "titles": [
@@ -67,10 +57,13 @@
     },
     {
         "titles": [
-            "Civilizstion VI - Links",
-            "Civilization VI - Links"
+            "Civilization VI",
+            "Civilization VI",
+            "Über Civilization VI",
+            "Statistiken",
+            "rundenbasiertes Strategiespiel"
         ],
-        "url": "https://falkenmarlin.de/spiele/civ-vi/links"
+        "url": "https://falkenmarlin.de/spiele/civ-vi/"
     },
     {
         "titles": [
@@ -78,5 +71,12 @@
             "Ingress - Links"
         ],
         "url": "https://falkenmarlin.de/spiele/ingress/links"
+    },
+    {
+        "titles": [
+            "Civilizstion VI - Links",
+            "Civilization VI - Links"
+        ],
+        "url": "https://falkenmarlin.de/spiele/civ-vi/links"
     }
 ]
