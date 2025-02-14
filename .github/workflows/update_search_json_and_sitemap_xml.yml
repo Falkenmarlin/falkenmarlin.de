@@ -86,3 +86,11 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Actions Ntfy
+        run: |
+          curl \
+          -H "Title: Falkenmarlin.de" \
+          -H "Content-Type: text/plain" \
+          -d $'Repo: ${{ github.repository }}\nCommit: ${{ github.sha }}\nRef: ${{ github.ref }}\nStatus: ${{ job.status}}' \
+          ${{ secrets.NTFY_URL }}
+      
