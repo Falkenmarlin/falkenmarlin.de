@@ -10,49 +10,66 @@
     <script src="/scripts/ini.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>Falkenmarlin</h1>
-      <img src="/assets/falkenmarlin.jpg" alt="falkenmarlin-logo" width="100" height="100" />
-    </header>
-    <nav id="nav-placeholder"></nav>
-    <noscript>
-      <div class="noscript-warning">
-        <p>
-          Diese Website erfordert JavaScript, um vollständig zu funktionieren. Bitte aktiviere JavaScript in deinem
-          Browser.
-        </p>
+    <nav>
+      <a href="/" class="home-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a>
+      <input type="checkbox" id="sidebar-active" />
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+      </label>
+      <label id="overlay" for="sidebar-active"></label>
+      
+      <!--Versuchen untenstehenden code auf anderen Webseiten dynamisch zu laden von der Startseite-->
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg>
+        </label>
+        
+        <a class="home-link" href="/">Home</a>
+        <a href="/#about-me">Über Mich</a>
+        <a href="/links/">Links</a>
+        <div class="dropdown">
+          <a href="/spiele/">Spiele</a>
+          <div class="dropdown-container" id="dropdown-container">
+            <a href="/spiele/civ-vi/">Civilization VI</a>
+            <a href="/spiele/ingress/">Ingress</a>
+          </div>
+        </div>
+        
       </div>
-      <nav>
-        <a href="/">Startseite</a>
-        <a href="/links">Links</a>
-        <a href="/spiele">Spiele</a>
-        <a href="/suche">Suche</a>
-      </nav>
-    </noscript>
+    </nav>
     <main>
+      <div class="present">
+        <div>
+          <h1>Falkenmarlin</h1>
+          <p>
+            Hej ich bin Falkenmarlin und ich programmiere gerne, außerdem spiele ich Theater und helfe dort auch in der
+            Veranstaltungstechnik. Generell mag ich alles was mit Technik zu tun hat.
+          </p>
+        </div>
+        <div>
+          <img class="present" src="/assets/falkenmarlin-fullsize.webp" alt="Falkenmarlin" width="auto" height="256px" />
+        </div>
+      </div>
+      <!--
+        <section id="current">
+          <h2 class="centered">Aktuelles</h2>
+          <div class="box-container"></div>
+        </section>
+        <section id=""></section>
+        -->
       <section id="about-me">
-        <h2 class="centered">Über Mich</h2>
+        <h2 class="centered">INFOS</h2>
         <p>
-          Hey! Ich bin Falkenmarlin, jemand, der es liebt, sich kreativ auszutoben – egal ob bei
-          <span class="highlight">Technik</span>, <span class="highlight">Gaming</span>,
-          <span class="highlight">Theater</span> oder beim <span class="highlight">Zeichnen</span>. In meiner Freizeit
-          probiere ich gerne rum und <span class="highlight">programmiere</span> kleinere Projekte. Es macht mir mega
-          Spaß, neue Ideen umzusetzen und Dinge zum Laufen zu bringen. Besonders cool finde ich es, meine Begeisterung
-          für <span class="highlight">Computerspiele</span> auszuleben, indem ich eigene
-          <span class="highlight">Modifikationen</span> für Games entwickle – da kann ich meine Hobbys perfekt
-          kombinieren. Neben der Technik bin ich auch total in die Welt des
-          <span class="highlight">Theaters</span> abgetaucht. Ich spiele ehrenamtlich auf einer
-          <span class="highlight">Freilichtbühne</span>, und ich liebe es, in verschiedene Rollen zu schlüpfen und das
-          Publikum mitzureißen. Die Stimmung auf der Bühne und das Zusammenspiel mit den anderen machen einfach richtig
-          Spaß. Aber ich steh nicht nur auf der Bühne sondern helfe auch bei der
-          <span class="highlight">Veranstaltungstechnik</span> mit. Egal ob <span class="highlight">Licht</span> oder
-          <span class="highlight">Ton</span>, ich packe gerne mit an, um die Shows unvergesslich zu machen. Alles in
-          allem liebe ich es, mich kreativ auszutoben und dabei immer wieder neue Dinge zu lernen und zu erleben.
-          <span class="highlight">Technik</span>, <span class="highlight">Gaming</span>,
-          <span class="highlight">Theater</span> und <span class="highlight">Zeichnen</span> – das ist genau mein Ding!
+          Diese Webseite befindet sich aktuell noch im Aufbau ;)<br> Fehler bitte an <a href=mailto:error@falkenmarlin.de>error@falkenmarlin.de</a> oder auf <a href="https://github.com/Falkenmarlin/falkenmarlin.de/issues">Github</a> melden.
         </p>
       </section>
     </main>
+    <span class="footer-spacer"></span>
     <footer>
       <p>&copy; 2024 - <span id="year"></span> Falkenmarlin. Alle Rechte vorbehalten.</p>
     </footer>
