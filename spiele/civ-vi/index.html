@@ -7,33 +7,41 @@
     <link rel="icon" href="/assets/civ-vi.png" type="image/jpg" />
     <link rel="stylesheet" href="/assets/stylesheet.css" />
     <script src="/scripts/ini.js" defer></script>
-    <script src="/scripts/ingress.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>Civilization VI</h1>
-      <img
-        src="/assets/civ-vi.png"
-        alt="Sid Meier's Civilization VI Logo"
-        width="100"
-        height="100"
-        style="border-radius: 0%;"
-      />
-    </header>
-    <nav id="nav-placeholder"></nav>
-    <noscript>
-      <div class="noscript-warning">
-        <p>
-          Diese Website erfordert JavaScript, um vollständig zu funktionieren.
-          Bitte aktiviere JavaScript in deinem Browser.
-        </p>
+    <nav>
+      <a href="/" class="home-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a>
+      <input type="checkbox" id="sidebar-active" />
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+      </label>
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg>
+        </label>
+
+        <a class="home-link" href="/">Home</a>
+        <a href="/#about-me">Über Mich</a>
+        <a href="/links/">Links</a>
+        <div class="dropdown">
+          <a href="/spiele/">Spiele</a>
+          <div class="dropdown-container" id="dropdown-container">
+            <a href="/spiele/civ-vi/">Civilization VI</a>
+            <a href="/spiele/ingress/">Ingress</a>
+          </div>
+        </div>
+        
       </div>
-      <nav>
-        <a href="/">Startseite</a>
-        <a href="/links">Links</a>
-      </nav>
-    </noscript>
+    </nav>
     <main>
+      <h1>Civilization VI</h1>
+      <img src="/assets/civ-vi.png" alt="Civilization VI Logo" width="100" height="100" />
       <section id="about-civ-vi">
         <h2 class="centered">Über Civilization VI</h2>
         <p>
